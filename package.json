@@ -7,6 +7,12 @@
     "bundle": "mkdir -p dist && cp index.html dist/index.html && NODE_PATH=node_modules:. browserify -e index.web.js -t babelify -o dist/bundle.js"
   },
   "dependencies": {
+    "d3-array": "~0.7.1",
+    "d3-format": "~0.5.1",
+    "d3-interpolate": "~0.7.0",
+    "d3-random": "~0.2.1",
+    "d3-scale": "~0.6.4",
+    "d3-shape": "~0.6.0",
     "react": "~0.14.7",
     "react-dom": "~0.14.7"
   },
