@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from 'flux/lib/fluxContainer';
+import Container from 'flux/lib/FluxContainer';
 import PredictionResult from 'PredictionResult';
 import PredictionStore from 'PredictionStore';
 

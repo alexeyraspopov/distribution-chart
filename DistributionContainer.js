@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from 'flux/lib/fluxContainer';
+import Container from 'flux/lib/FluxContainer';
 import Distribution from 'Distribution';
 import ObservationsStore from 'ObservationsStore';
 import Scale from 'd3-scale';
