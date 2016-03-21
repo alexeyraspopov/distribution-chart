@@ -3,7 +3,7 @@
   "scripts": {
     "start": "npm run server & npm run build",
     "server": "http-server . -p 3000 -s",
-    "build": "NODE_PATH=$(npm root):. watchify -e index.web.js -t babelify -t envify -o bundle.js -dv",
+    "build": "NODE_PATH=$(npm root):. watchify -e index.web.js -t babelify -t envify -o bundle.js -dv"
   },
   "dependencies": {
     "d3-array": "~0.7.1",
