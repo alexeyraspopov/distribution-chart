@@ -7,7 +7,7 @@ import Array from 'd3-array';
 const predictionGenerator = Random.randomNormal(0.5, 0.15);
 
 function getRandomObservations() {
-	return Array.range(1000).map(predictionGenerator);
+	return Array.range(1000).map(predictionGenerator).sort();
 }
 
 class ObservationsStore extends MapStore {
