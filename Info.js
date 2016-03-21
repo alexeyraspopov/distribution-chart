@@ -7,7 +7,7 @@ const ORANGE = '#ff702c';
 
 export default function Info({prediction, average, total}) {
 	return (
-		<section className="infoContainer column">
+		<section className="infoContainer">
 			<div className="column">
 				<Motion style={{x: spring(prediction)}}>
 					{({x}) => <output>{precisePercentage(x)}</output>}

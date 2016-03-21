@@ -7,9 +7,7 @@ import InfoContainer from 'InfoContainer';
 
 ReactDOM.render((
 	<article className="row">
-		<section className="column">
-			<DistributionContainer />
-		</section>
+		<DistributionContainer />
 		<section className="column justified">
 			<InfoContainer />
 			<PanelContainer />
