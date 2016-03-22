@@ -8,7 +8,7 @@ class PredictionResultContainer extends React.Component {
 		return [PredictionStore];
 	}
 
-	static calculateState(xScale, yScale) {
+	static calculateState(prevState, {xScale, yScale}) {
 		return {
 			prediction: PredictionStore.getState(),
 		}
