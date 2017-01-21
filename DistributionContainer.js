@@ -2,8 +2,8 @@ import React from 'react';
 import Container from 'flux/lib/FluxContainer';
 import Distribution from 'Distribution';
 import ObservationsStore from 'ObservationsStore';
-import Scale from 'd3-scale';
-import D3Array from 'd3-array';
+import * as Scale from 'd3-scale';
+import * as D3Array from 'd3-array';
 
 class DistributionContainer extends React.Component {
 	static getStores() {

@@ -1,8 +1,8 @@
 import MapStore from 'flux/lib/FluxMapStore';
 import {Map} from 'immutable';
 import Dispatcher from 'Dispatcher';
-import Random from 'd3-random'; 
-import Array from 'd3-array';
+import * as Random from 'd3-random'; 
+import * as Array from 'd3-array';
 
 const predictionGenerator = Random.randomNormal(0.5, 0.15);
 

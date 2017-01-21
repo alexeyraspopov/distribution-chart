@@ -1,5 +1,5 @@
 import React from 'react';
-import Array from 'd3-array';
+import * as Array from 'd3-array';
 
 export default function Panel({onObservationsChange, onPredictionChange}) {
 	return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Scale from 'd3-scale';
-import D3Array from 'd3-array';
+import * as Scale from 'd3-scale';
+import * as D3Array from 'd3-array';
 import Histogram from 'Histogram';
 import PredictionResultContainer from 'PredictionResultContainer';
 import XAxis from 'XAxis';

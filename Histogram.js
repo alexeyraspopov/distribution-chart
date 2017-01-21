@@ -1,5 +1,5 @@
 import React from 'react';
-import Shape from 'd3-shape';
+import * as Shape from 'd3-shape';
 import MotionPath from 'MotionPath';
 
 const BLUE = '#3eb3f6';

@@ -1,6 +1,6 @@
 import ReduceStore from 'flux/lib/FluxReduceStore';
 import Dispatcher from 'Dispatcher';
-import Random from 'd3-random';
+import * as Random from 'd3-random';
 
 const predictionGenerator = Random.randomNormal(0.5, 0.15);
 

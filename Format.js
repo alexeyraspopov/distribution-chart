@@ -1,4 +1,4 @@
-import Format from 'd3-format';
+import * as Format from 'd3-format';
 
 export const percentage = Format.format('.0%');
 export const precisePercentage = Format.format('.1%');

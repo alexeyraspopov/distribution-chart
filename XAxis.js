@@ -1,5 +1,5 @@
 import React from 'react';
-import Format from 'd3-format';
+import * as Format from 'd3-format';
 import {percentage} from 'Format';
 
 export default function XAxis({ticks, scale, width, height}) {

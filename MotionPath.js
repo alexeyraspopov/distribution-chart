@@ -1,6 +1,6 @@
 import React from 'react';
 import {Motion, spring} from 'react-motion';
-import Interpolate from 'd3-interpolate';
+import * as Interpolate from 'd3-interpolate';
 
 export default class MotionPath extends React.Component {
 	constructor(props) {
